@@ -39,5 +39,5 @@ class Song
     end
     song_name
   end
-
+  self.create_by_name(song_name)
 end
